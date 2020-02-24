@@ -1,0 +1,13 @@
+@import '~@nativescript/theme/css/core.css';
+@import '~@nativescript/theme/css/default.css';
+
+.btn-primary {
+  height: 50;
+  background-color: rgb(10, 10, 10);
+  border-radius: 5;
+  font-size: 20;
+  font-weight: 600;
+}
+.btn-primary:disabled {
+  opacity: 0.5;
+}

@@ -1,0 +1,33 @@
+<Page xlms="http://schemas.nativescript.org/tns.xsd"
+    navigatingTo="navigatingTo" class="page">
+    <Page.actionBar>
+        <ActionBar title="FaceBlock" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+
+    <flexboxLayout class="page">
+
+        <StackLayout class="form">
+            <Label class="header" text="FaceBlock"></Label>
+
+            <StackLayout class="input-field">
+                <TextField class="input" hint="Username" text="{{ username}}">
+                </TextField>"
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
+
+            <StackLayout class="input-field">
+                <TextField class="input" secure="true" hint="Password"
+                    text="{{ password }}"></TextField>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
+
+            <Button text="Login" tap="submit()" class="btn btn-primary">
+            </Button>
+
+
+        </StackLayout>
+
+    </flexboxLayout>
+
+</Page>
