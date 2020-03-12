@@ -1,0 +1,7 @@
+<Page class="advicePage">
+    <StackLayout>
+        <Label text="Advice"/>
+        <Button text="Laws" tap="tapLaws"></Button>
+        <Button text="Techniques" tap="tapTech"></Button>
+    </StackLayout>
+</Page>
