@@ -25,6 +25,9 @@
             <Button text="Login" tap="submit()" class="btn btn-primary">
             </Button>
 
+            <!--trying to link home page to faq-->
+            <!--<button onclick="location.href='/app/faq/faq.xml'">-->
+
 
         </StackLayout>
 
