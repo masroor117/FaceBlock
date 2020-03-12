@@ -1,7 +1,9 @@
 <Page class="advicePage">
     <StackLayout>
-        <Label text="Advice"/>
-        <Button text="Laws" tap="tapLaws"></Button>
-        <Button text="Techniques" tap="tapTech"></Button>
+        <Label class="h1" text="Advice" textAlignment="center"></Label>
+        <FlexboxLayout flexDirection="column">
+            <Button class="-primary" text="Laws" tap="tapLaws"></Button>
+            <Button class="-primary" text="Techniques" tap="tapTech"></Button>
+        </FlexboxLayout>
     </StackLayout>
 </Page>
