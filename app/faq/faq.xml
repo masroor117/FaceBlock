@@ -1,0 +1,11 @@
+<Page>
+    <Page.actionBar>
+        <ActionBar title="FaceBlock" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+    <GridLayout rows="*,*" columns="*,*">
+        <Label text="FAQ" row="0" rowSpan="2" column="0" backgroundColour="black">
+        <Label text="Ask a Q" row="0" column="1" backgroundColour="red">
+        <Label text="Leave Feedback" row="1" column="1" backgroundColour="red">
+    </GridLayout>
+</Page>
