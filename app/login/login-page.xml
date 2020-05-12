@@ -6,8 +6,8 @@
 
             <GridLayout rows="auto, auto, auto">
                 <StackLayout row="0" class="input-field">
-                    <TextField class="input" text="{{ email }}" hint="email"
-                        keyboardType="email" autocorrect="false"
+                    <TextField class="input" text="{{ email }}" hint="Email"
+                        autocorrect="false"
                         autocapitalizationType="none" returnKeyType="next" />
                     <Label class="hr-light" />
                 </StackLayout>
